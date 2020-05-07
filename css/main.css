@@ -3,7 +3,7 @@ h1 {
         text-align: center;
     }
     body {
-        background: linear-gradient(101deg, #3381AF, #1D7D30, #C03613, #FCFC85);
+        background: linear-gradient(90deg, #3381AF, #1D7D30, #C03613, #FCFC85);
     }
     header {
         background-color: #FFF;
@@ -12,8 +12,27 @@ h1 {
     }
     footer {
         font-family: herculanum, georgia;
-        margin-top: 50px;
+        margin-top: 100px;
         background-color: #FFF;
         opacity: 0.5;
         padding: 2px;
+    }
+    nav {
+        font-size: 14px;
+        font-family: herculanum;
+        text-align: center;
+    }
+    div {
+        width: 119px;
+        float: left;
+        background-color: white;
+    }
+    .character_bios {
+        padding-left: 116px;
+    }
+    .stories {
+        padding-left: 105px;
+    }
+    .home {
+        margin-left: 1px;
     }

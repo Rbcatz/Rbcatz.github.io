@@ -25,10 +25,14 @@ h1 {
         font-size: 14px;
         font-family: herculanum;
         text-align: center;
-            display: inline-block;
+        display: inline-block;
     }
-    div {
+    .navbar {
         width: 119px;
         float: left;
         background-color: white;
+    }
+    ul {
+        display: inline-block;
+        list-style-type: none;
     }

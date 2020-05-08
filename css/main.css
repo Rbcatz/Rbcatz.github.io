@@ -1,35 +1,31 @@
 h1 {
-        font-family: herculanum, georgia;
-        text-align: center;
-    }
-    body {
-        background: url("../images/map_avatar.jpg") no-repeat center center fixed; /* change image to whatever else */
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-    header {
-        background-color: #FFF;
-        padding: 2px;
-        opacity: 0.85;
-    }
-    footer {
-        font-family: herculanum, georgia;
-        margin-top: 100px;
-        background-color: #FFF;
-        opacity: 0.75;
-        padding: 2px;
-    }
-    nav {
-        font-size: 14px;
-        font-family: herculanum;
-    }
-    .navbar {
-        width: 119px;
-        background-color: hsl(0, 0%, 73%; 
-    }
-    ul {
-        display: inline-block;
-        list-style-type: none;
-    }
+    font-family: herculanum, georgia;
+    text-align: center;
+}
+body {
+    background: url("../images/map_avatar.jpg") no-repeat center center fixed; /* change image to whatever else */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header {
+    background-color: #FFF;
+    padding: 2px;
+    opacity: 0.85;
+}
+footer {
+    font-family: herculanum, georgia;
+    margin-top: 100px;
+    background-color: #FFF;
+    opacity: 0.75;
+    padding: 2px;
+}
+#navbar {
+    font-size: 1.2rem;
+    font-family: herculanum;
+    background-color: hsl(0, 0%, 73%); 
+    display: flex; 
+    justify-content: space-evenly;
+    list-style: none;
+}

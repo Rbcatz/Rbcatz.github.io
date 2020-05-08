@@ -8,10 +8,10 @@ h1 {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        opacity: 0.5;
     }
     header {
         background-color: #FFF;
-        opacity: 0.5;
         padding: 2px;
     }
     footer {
@@ -25,6 +25,7 @@ h1 {
         font-size: 14px;
         font-family: herculanum;
         text-align: center;
+            display: inline-block;
     }
     div {
         width: 119px;

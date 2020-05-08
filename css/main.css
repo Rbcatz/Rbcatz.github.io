@@ -8,27 +8,28 @@ h1 {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        opacity: 0.5;
     }
     header {
         background-color: #FFF;
         padding: 2px;
+        opacity: 0.85;
     }
     footer {
         font-family: herculanum, georgia;
         margin-top: 100px;
         background-color: #FFF;
-        opacity: 0.5;
+        opacity: 0.75;
         padding: 2px;
     }
     nav {
         font-size: 14px;
         font-family: herculanum;
-        text-align: center;
-            display: inline-block;
     }
-    div {
+    .navbar {
         width: 119px;
-        float: left;
-        background-color: white;
+        background-color: hsl(0, 0%, 73%; 
+    }
+    ul {
+        display: inline-block;
+        list-style-type: none;
     }

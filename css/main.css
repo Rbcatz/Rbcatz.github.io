@@ -1,9 +1,16 @@
+/* TODO: probably fix mobile formatting */
+
+@font-face {
+    font-family: "Herculanum";
+    src: url("../fonts/Herculanum.woff2") format("woff2"), 
+         url("../fonts/Herculanum.woff") format("woff");
+}
 h1 {
-    font-family: herculanum, georgia;
+    font-family: Herculanum, georgia;
     text-align: center;
 }
 body {
-    background: url("../images/map_avatar.jpg") no-repeat center center fixed; /* change image to whatever else */
+    background: url("../images/map_avatar.jpg") no-repeat center center fixed; /* change image if you like */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,15 +22,17 @@ header {
     opacity: 0.85;
 }
 footer {
-    font-family: herculanum, georgia;
-    margin-top: 100px;
-    background-color: #FFF;
-    opacity: 0.75;
+    font-family: Herculanum, georgia;
+    color: #FFF;
     padding: 2px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 #navbar {
-    font-size: 1.2rem;
-    font-family: herculanum;
+    font-size: 1.3rem;
+    font-family: Herculanum;
     background-color: hsl(0, 0%, 73%); 
     display: flex; 
     justify-content: space-evenly;

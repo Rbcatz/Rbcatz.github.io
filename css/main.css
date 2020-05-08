@@ -1,16 +1,19 @@
-/* TODO: probably fix mobile formatting */
+/* TODO: 
+    * probably fix mobile formatting
+    * make neater in general
+*/
 
 @font-face {
     font-family: "Herculanum";
-    src: url("../fonts/Herculanum.woff2") format("woff2"), 
-         url("../fonts/Herculanum.woff") format("woff");
+    src: url("./../fonts/Herculanum.woff2") format("woff2"), 
+         url("./../fonts/Herculanum.woff") format("woff");
 }
 h1 {
     font-family: Herculanum, georgia;
     text-align: center;
 }
 body {
-    background: url("../images/map_avatar.jpg") no-repeat center center fixed; /* change image if you like */
+    background: url("./../images/map_avatar.jpg") no-repeat center center fixed; /* change image if you like */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

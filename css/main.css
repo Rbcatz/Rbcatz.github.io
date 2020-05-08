@@ -27,7 +27,7 @@ h1 {
     }
     .navbar {
         width: 119px;
-        background-color: white; 
+        background-color: hsl(0, 0%, 73%; 
     }
     ul {
         display: inline-block;

@@ -3,7 +3,11 @@ h1 {
         text-align: center;
     }
     body {
-        background: linear-gradient(90deg, #3381AF, #1D7D30, #C03613, #FCFC85);
+        background: url("../images/map_avatar.jpg") no-repeat center center fixed; /* change image to whatever else */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
     header {
         background-color: #FFF;
